@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Rem to px",
+  "version": "1.0",
+  "description": "Rem to px",
+  "icons": {
+    "16": "remLogo.png"
+  },
+  "action":{
+    "default_icon": "remLogo.png",
+    "default_popup": "popup.html"
+  }
+}

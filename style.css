@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 8px 5px;
+}
+.container {
+  max-width: 250px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-group_input, .result-group_input {
+  outline: none;
+  height: 22px;
+}
+.input-group_x{
+  margin: 0 5px;
+}
+.input-group_xWith{
+  background-color: gray;
+  border-radius: 2px;
+  padding: 2px;
+  outline: none;
+  color: rgb(230, 225, 225);
+}
+.result-group_btn {
+  outline: none;
+}
+.result-group_input {
+  display: block;
+}
+.result-group_btn{
+  margin-top: 10px;
+}
+.division {
+  padding: 5px 0;
+}
